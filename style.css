@@ -1,0 +1,55 @@
+* {
+  background-color: white;
+  margin:  0;
+  left-padding: 20%;
+  font-family:      Helvetica;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 1em;
+}
+
+h1 {
+  background-color: black;
+  color:            white;
+  font-family:      Helvetica;
+  font-size:        116;
+  padding-left:     6%;
+}
+
+h2 {
+  font-family:      Helvetica;
+  font-size:        36;
+}
+
+/* ul li a { */
+/*   color:            #990000; */
+/*   text-decoration:  none; */
+/* } */
+
+a {
+  color:            #990000;
+  text-decoration:  none;
+}
+
+ul li {
+  margin-left:      12;
+  margin-right:     12;
+  display:          inline;
+  font-family:      sans-serif;
+  font-size:        32;
+}
+
+ul li :not(.selected):hover {
+  background: #fdf0ef;
+}
+
+div {
+  display: none;
+  margin-left:  7%;
+  margin-right:  7%;
+}
